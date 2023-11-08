@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import {signOut} from "firebase/auth"
 import {auth} from "../../services/firebaseConnection"
 
-export const Header = () => {
+export function Header(){
     async function handleLogout(){
         await signOut(auth)
     }

@@ -2,11 +2,11 @@ import {useState,useEffect} from "react"
 
 
 import {Social} from "../../components/social"
-import {FaFacebook,FaInstagram,FaUnderline,FaYoutube} from "react-icons/fa"
+import {FaFacebook,FaInstagram,FaYoutube} from "react-icons/fa"
 
 //FireBase
 import {db} from "../../services/firebaseConnection"
-import { Firestore,getDocs,collection,orderBy,query,getDoc ,doc} from "firebase/firestore"
+import { getDocs,collection,orderBy,query,getDoc ,doc} from "firebase/firestore"
 
 //Interface
 interface ListaProps{
