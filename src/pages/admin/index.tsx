@@ -10,7 +10,6 @@ import { Header } from "../../components/header"
 //FireBase
 import {db} from "../../services/firebaseConnection"
 import {addDoc,collection,onSnapshot,query,orderBy,doc,deleteDoc} from "firebase/firestore"
-import { LinkProps } from "react-router-dom"
 
 
 //Interface
