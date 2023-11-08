@@ -1,4 +1,3 @@
-import React from 'react'
 import {BiLogOut} from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 import {signOut} from "firebase/auth"
